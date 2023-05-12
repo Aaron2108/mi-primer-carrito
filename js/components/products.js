@@ -17,7 +17,7 @@ function products(products){
                     <span class="product__stock">Disponibles: ${product.quantity}</span>
                     <h3 class="product__title">${product.name}</h3>
                     <a href="#" class="mdal" >Ver mas!</a>
-                    <section class="modal">
+                    <section class="modal ">
                     <div class="modal__container">
             <img src="${product.image}" alt="${product.name}">
             <h2 class="modal__title">Bienvenido</h2>
